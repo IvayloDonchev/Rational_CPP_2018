@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DivideByZeroException.h" />
+    <ClInclude Include="Rational.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DivideByZeroException.cpp" />
+    <ClCompile Include="Rational.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
