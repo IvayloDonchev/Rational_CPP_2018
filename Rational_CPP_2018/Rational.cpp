@@ -60,7 +60,7 @@ bool Rational::IsZero() const
 
 Rational Rational::operator+(const Rational &r2)
 {
-	return Rational(num*r2.den + r2.num*den, den*r2.den);
+	return Rational(this->num*r2.den + r2.num*den, this->den*r2.den);
 }
 
 Rational Rational::operator-(const Rational &r2)
